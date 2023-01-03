@@ -1,0 +1,10 @@
+
+CHIP Wire {
+    IN in;
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+
+    Or(a=in, b=false, out=out);
+}
